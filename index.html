@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Remake</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- cdn bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid mt">
+          <img src="img/logo.png" alt="Netflix" class="logo" />
+          <div class="d-flex float-end">
+            <div class="dropdown">
+              <a
+                class="btn dropdown-toggle btn-outline-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Bahasa Indonesia
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-danger">Masuk</button>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h1>Film, acara TV tak terbatas,<br />dan lebih banyak lagi.</h1>
+        <h2>Tonton dimana pun. Batalkan Kapan pun.</h2>
+        <br />
+        <form class="row g-2 justify-content-center">
+          <label class="form-label">
+            Siap menonton? Masukkan email untuk membuat atau memulai lagi
+            keanggotaanmu.</label
+          >
+          <div class="col-6">
+            <input
+              type="email"
+              class="form-control"
+              aria-describedby="emailHelp"
+              placeholder="Alamat Email"
+            />
+          </div>
+          <button type="button" class="btn btn-danger col-2 email">
+            Mulai >
+          </button>
+        </form>
+      </div>
+      <div class="add1 row">
+        <div class="text col-6">
+          <h2>Nikmati di TV-mu.</h2>
+          <p>
+            Tonton di Smart TV, Playstation, Xbox, <br />
+            Chromecast, Apple TV, pemutar Blu-ray,<br />
+            dan banyak lagi.
+          </p>
+        </div>
+        <div class="col-6 image" style="margin-right: 120px;">
+          <video autoplay loop muted>
+            <source src="img/gif.mp4" type="video/mp4" />
+          </video>
+          <img src="img/tv.png"/>
+        </div>
+      </div>
+      <div class="add1 row">
+        <div class="image col-6">
+          <img src="img/add2.jpg" alt="" style="margin-left: 100px;">
+          <div class="card mb-3 conCard">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/card.jpg" class="img-fluid rounded-star cardImg">
+              </div>
+              <div class="col-md-5">
+                <div class="card-body">
+                  <h5>Stranger Thinks</h5>
+                  <p>Men-download...</p>
+                </div>
+                <div class="col-md-3 icon">
+                  <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_hdmkzp2n.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px;" autoplay muted loop></lottie-player>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 text">
+          <h2>Download acara TV <br> untuk menontonnya <br> secara offline.</h2>
+          <p>
+            Simpan favoritmu dengan mudah agar <br> selalu ada acara TV dan film yang bisa ditonton.
+          </p>
+        </div>
+      </div>
+      <div class="add1 row">
+        <div class="text col-6">
+          <h2>Tonton di mana pun.</h2>
+          <p>
+            Streaming film dan acara TV tak terbatas di <br> ponsel, tablet, laptop, dan TV-mu.
+          </p>
+        </div>
+        <div class="col-6 image2" style="margin-right: 120px;">
+          <video autoplay loop muted>
+            <source src="img/video2.mp4" type="video/mp4"/>
+          </video>
+          <img src="img/device-pile-id.png"/>
+        </div>
+      </div>
+      <div class="add1 row">
+        <div class="image col-6">
+          <img src="img/card2.png" alt="anak" style="margin-left: 100px;">
+        </div>
+        <div class="col-6 text">
+          <h2>Buat profil untuk anak.</h2>
+          <p>
+            Kirim anak-anak untuk bertualang bersama <br> karakter favorit mereka di dunia yang dibuat <br> khusus untuk mereka—gratis dengan <br> keanggotaanmu.
+          </p>
+        </div>
+      </div>
+      <div class="row qna justify-content-center">
+        <h2 class="col-12">Tanya Jawab Umum</h2>
+        <div class="accordion accordion-flush col-7" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Apa itu Netflix?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Netflix adalah layanan streaming yang menawarkan berbagai acara TV pemenang penghargaan, film, anime, dokumenter, dan banyak lagi di ribuan perangkat yang terhubung ke Internet. <br>
+                Kamu bisa menonton sepuasnya, kapan pun kamu mau, tanpa satu iklan pun – semuanya dengan satu harga bulanan yang murah. Selalu ada tontonan baru dan acara TV serta film baru yang ditambahkan setiap minggu!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Berapa biaya berlangganan Netflix?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Tonton Netflix di smartphone, tablet, Smart TV, laptop, atau perangkat streaming-mu, semuanya dengan satu harga bulanan tetap Rentang harga mulai dari Rp54.000 hingga Rp186.000 per bulan. Tanpa biaya ekstra, tanpa kontrak.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Dimana saya bisa menonton?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Tonton di mana pun, kapan pun. Masuk ke akun Netflix-mu untuk menonton langsung di netflix.com dari komputer pribadi atau di perangkat yang terhubung ke Internet dan mendukung aplikasi Netflix, termasuk smart TV, smartphone, tablet, pemutar media streaming, dan konsol game.<br>
+                Kamu juga bisa men-download acara favoritmu dengan aplikasi iOS, Android, atau Windows 10. Gunakan download untuk menonton saat kamu di perjalanan dan tidak punya koneksi Internet. Bawa Netflix ke mana saja.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Bagaimana cara membatalkannya?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Netflix fleksibel. Tanpa kontrak menyebalkan dan tanpa komitmen. Kamu dapat dengan mudah membatalkan akunmu secara online dengan dua kali klik. Tanpa biaya pembatalan – mulai atau hentikan akunmu kapan pun.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Apa yang bisa ditonton di Netflix?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Netflix memiliki pustaka lengkap yang berisi film panjang, film dokumenter, acara TV, anime, Netflix original pemenang penghargaan, dan lebih banyak lagi. Tonton sepuasnya, kapan pun kamu mau.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Apakah sesuai bagi Anak-anak?
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Pengalaman Netflix Anak disertakan dalam keanggotaan agar kamu punya kontrol orang tua saat anak-anak menikmati acara TV dan film untuk keluarga di rumah.<br>
+                Profil anak dilengkapi kontrol orang tua yang dilindungi PIN sehingga kamu bisa membatasi rating usia konten yang bisa ditonton anak dan memblokir judul tertentu yang tidak boleh ditonton anak-anak.
+              </div>
+            </div>
+          </div>
+          <form class="row g-2 justify-content-center">
+            <label class="form-label">
+              Siap menonton? Masukkan email untuk membuat atau memulai lagi
+              keanggotaanmu.</label
+            >
+            <div class="col-7">
+              <input
+                type="email"
+                class="form-control"
+                aria-describedby="emailHelp"
+                placeholder="Alamat Email"
+              />
+            </div>
+            <button type="button" class="btn btn-danger col-3 email">
+              Mulai >
+            </button>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <div class="fCon">
+          <h6>Ada pertanyaan? Hubungi 007-803-321-2148</h6>
+          <table style="width: 100%;">
+          <tr>
+            <td><a href="">Tanya Jawab</a></td>
+            <td><a href="">Pusat Bantuan</a></td>
+            <td><a href="">Akun</a></td>
+            <td><a href="">Pusat Media</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Hubungan Investor</a></td>
+            <td><a href="">Lowongan Kerja</a></td>
+            <td><a href="">Tukar Kartu Hadiah</a></td>
+            <td><a href="">Beli Kartu Hadiah</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Cara Menonton</a></td>
+            <td><a href="">Ketentuan Penggunaan</a></td>
+            <td><a href="">Privasi</a></td>
+            <td><a href="">Preferensi Cookie</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Informasi Perusahaan</a></td>
+            <td><a href="">Hubungi Kami</a></td>
+            <td><a href="">Uji Kecepatan</a></td>
+            <td><a href="">Informasi Legal</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Hanya di Netflix</a></td>
+          </tr>
+        </table>
+        <div class="dropdown Fbtn">
+          <a
+            class="btn dropdown-toggle btn-outline-dark btn-lg rounded-0"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Bahasa Indonesia
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+            <li><a class="dropdown-item" href="#">English</a></li>
+          </ul>
+        </div>
+        <p>Netflix Indonesia</p>
+        </div>
+      </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
